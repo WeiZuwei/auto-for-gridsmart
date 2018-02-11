@@ -1,0 +1,8 @@
+{
+
+"api_version": "/api",
+"hardware_id": "/api/system/hardwareid",
+"hardware_info": "/api/system/hardwareinfo",
+"camera_status": "/api/camera"
+
+}

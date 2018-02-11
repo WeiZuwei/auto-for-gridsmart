@@ -1,0 +1,74 @@
+apply plugin: 'java'
+
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+
+    jcenter()
+    mavenCentral()
+    
+}
+
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+
+
+    // The production code uses the SLF4J logging API at compile time
+    compile 'org.slf4j:slf4j-api:1.7.21'
+
+	//TestNG
+    testCompile 'org.testng:testng:6.8.1'
+    
+    //Selenium
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-server-standalone', version: '2.53.0'
+    //compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.7.1'
+    //compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.24.1'
+    
+    //Winium
+    compile group: 'com.github.2gis.winium', name: 'winium-webdriver', version: '0.1.0-1'
+    compile group: 'com.github.2gis.winium', name: 'winium-elements-desktop', version: '0.2.0-1'
+    
+    //log
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    
+    //json
+    
+    compile group: 'org.json', name: 'json', version: '20170516'
+     
+    
+}
+
+
+test {
+
+	useTestNG{
+	
+		suites 'src/test/resources/testng.xml'
+		
+	}
+	
+	reports.html.enabled = true
+	
+}
+
+task backupReports(type: Copy) {
+	
+	def source = 'build/reports/tests'
+	def dest = 'gradleReports/' + new Date().format('yyyyMMddHHmmss')
+	
+	from source
+	into dest
+
+}
+
+
+//task runDemoTest(type: Test) {
+//
+//	useTestNG{
+//		includeGroups 'Demo'
+//	}
+//	
+//	reports.html.enabled = true
+//	
+//}

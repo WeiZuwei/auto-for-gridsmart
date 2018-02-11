@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class gsApiTest.ApiTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class gsApiTest.ApiTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/gsApiTest.html">gsApiTest</a> &gt; ApiTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.206s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">ApiVersionTest</td>
+<td>0.174s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">CameraStatusTest</td>
+<td>0.032s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[INFO ][2017/11/02 15:48:08875][gsApiTest.ApiTest.ApiVersionTest(ApiTest.java:51)] ============ API Test -- Version Test ============
+[INFO ][2017/11/02 15:48:08878][gsApiTest.ApiTest.getUrl(ApiTest.java:109)] ============ API Test -- url: http://10.1.3.174:8902/api ============
+[DEBUG][2017/11/02 15:48:08906][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122)] CookieSpec selected: default
+[DEBUG][2017/11/02 15:48:08923][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76)] Auth cache not set in the context
+[DEBUG][2017/11/02 15:48:08925][org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249)] Connection request: [route: {}-&gt;http://10.1.3.174:8902][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[DEBUG][2017/11/02 15:48:08951][org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282)] Connection leased: [id: 0][route: {}-&gt;http://10.1.3.174:8902][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[DEBUG][2017/11/02 15:48:08954][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:234)] Opening connection {}-&gt;http://10.1.3.174:8902
+[DEBUG][2017/11/02 15:48:08958][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:131)] Connecting to /10.1.3.174:8902
+[DEBUG][2017/11/02 15:48:08963][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:138)] Connection established 172.16.254.169:49194&lt;-&gt;10.1.3.174:8902
+[DEBUG][2017/11/02 15:48:08964][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255)] Executing request GET /api HTTP/1.1
+[DEBUG][2017/11/02 15:48:08965][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260)] Target auth state: UNCHALLENGED
+[DEBUG][2017/11/02 15:48:08966][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266)] Proxy auth state: UNCHALLENGED
+[DEBUG][2017/11/02 15:48:08971][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135)] http-outgoing-0 &gt;&gt; GET /api HTTP/1.1
+[DEBUG][2017/11/02 15:48:08972][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138)] http-outgoing-0 &gt;&gt; Host: 10.1.3.174:8902
+[DEBUG][2017/11/02 15:48:08973][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138)] http-outgoing-0 &gt;&gt; Connection: Keep-Alive
+[DEBUG][2017/11/02 15:48:08973][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138)] http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_92)
+[DEBUG][2017/11/02 15:48:08975][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138)] http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate
+[DEBUG][2017/11/02 15:48:08976][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;GET /api HTTP/1.1[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08976][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;Host: 10.1.3.174:8902[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08977][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08978][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_92)[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08979][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08979][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08989][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08989][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Transfer-Encoding: chunked[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08990][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Content-Type: application/xml; charset=utf-8[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08990][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Content-Encoding: gzip[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08991][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Server: Microsoft-HTTPAPI/2.0[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08991][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Date: Thu, 02 Nov 2017 17:00:28 GMT[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08992][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08992][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;A[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08993][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[0x1f][0x8b][0x8][0x0][0xdc][0x8][0xfb]Y[0x0][0xff][\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:08997][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124)] http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK
+[DEBUG][2017/11/02 15:48:08998][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Transfer-Encoding: chunked
+[DEBUG][2017/11/02 15:48:08999][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Content-Type: application/xml; charset=utf-8
+[DEBUG][2017/11/02 15:48:08999][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Content-Encoding: gzip
+[DEBUG][2017/11/02 15:48:090  ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Server: Microsoft-HTTPAPI/2.0
+[DEBUG][2017/11/02 15:48:090  ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Date: Thu, 02 Nov 2017 17:00:28 GMT
+[DEBUG][2017/11/02 15:48:096  ][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284)] Connection can be kept alive indefinitely
+[INFO ][2017/11/02 15:48:0910 ][gsApiTest.ApiTest.resCodeIs200(ApiTest.java:118)] ============ API Test -- response code: 200 ============
+[DEBUG][2017/11/02 15:48:0915 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;50[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0917 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;{[0xbf]{[0xbf]M[0x85]UpIQf^[0xba]BEnN^[0xb1]U[0x85][0xad]RFII[0x81][0x95][0xbe]~qrFjnb[0xb1]^nfrQ~q~Z[0x89]^r~[0xae]~yf^Z[0x85][0xbe][0x91][0x81][0x81][0x99]~Ebn[0x8e][0x92][0x9d][0x99][0x9e][0xb9][0x9e][0x81][0x8d]&gt;[0xcc][0x18];[0x0][\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0917 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;8[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0918 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;d[0xbc][0xf3]!T[0x0][0x0][0x0][\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0918 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;0[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0919 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0920 ][org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314)] Connection [id: 0][route: {}-&gt;http://10.1.3.174:8902] can be kept alive indefinitely
+[DEBUG][2017/11/02 15:48:0920 ][org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320)] Connection released: [id: 0][route: {}-&gt;http://10.1.3.174:8902][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[INFO ][2017/11/02 15:48:0920 ][gsApiTest.ApiTest.ApiVersionTest(ApiTest.java:63)] ============ API Test -- response string: ?&lt;x:String xmlns:x=&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot;&gt;6.7.0&lt;/x:String&gt;============
+[INFO ][2017/11/02 15:48:0924 ][gsApiTest.ApiTest.CameraStatusTest(ApiTest.java:75)] ============ API Test -- Camera Status Test ============
+[INFO ][2017/11/02 15:48:0924 ][gsApiTest.ApiTest.getUrl(ApiTest.java:109)] ============ API Test -- url: http://10.1.3.174:8902/api/camera.json ============
+[DEBUG][2017/11/02 15:48:0925 ][org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:122)] CookieSpec selected: default
+[DEBUG][2017/11/02 15:48:0926 ][org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:76)] Auth cache not set in the context
+[DEBUG][2017/11/02 15:48:0926 ][org.apache.http.impl.conn.PoolingHttpClientConnectionManager.requestConnection(PoolingHttpClientConnectionManager.java:249)] Connection request: [route: {}-&gt;http://10.1.3.174:8902][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[DEBUG][2017/11/02 15:48:0927 ][org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:282)] Connection leased: [id: 0][route: {}-&gt;http://10.1.3.174:8902][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[DEBUG][2017/11/02 15:48:0927 ][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:255)] Executing request GET /api/camera.json HTTP/1.1
+[DEBUG][2017/11/02 15:48:0927 ][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:260)] Target auth state: UNCHALLENGED
+[DEBUG][2017/11/02 15:48:0928 ][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:266)] Proxy auth state: UNCHALLENGED
+[DEBUG][2017/11/02 15:48:0928 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:135)] http-outgoing-0 &gt;&gt; GET /api/camera.json HTTP/1.1
+[DEBUG][2017/11/02 15:48:0929 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138)] http-outgoing-0 &gt;&gt; Host: 10.1.3.174:8902
+[DEBUG][2017/11/02 15:48:0929 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138)] http-outgoing-0 &gt;&gt; Connection: Keep-Alive
+[DEBUG][2017/11/02 15:48:0930 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138)] http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_92)
+[DEBUG][2017/11/02 15:48:0930 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onRequestSubmitted(LoggingManagedHttpClientConnection.java:138)] http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate
+[DEBUG][2017/11/02 15:48:0931 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;GET /api/camera.json HTTP/1.1[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0931 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;Host: 10.1.3.174:8902[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0932 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0932 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_92)[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0932 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0933 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0935 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0936 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Transfer-Encoding: chunked[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0937 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0937 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Content-Encoding: gzip[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0938 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Server: Microsoft-HTTPAPI/2.0[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0939 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;Date: Thu, 02 Nov 2017 17:00:28 GMT[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0939 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0940 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;A[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0940 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[0x1f][0x8b][0x8][0x0][0xdd][0x8][0xfb]Y[0x0][0xff][\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0940 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:124)] http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK
+[DEBUG][2017/11/02 15:48:0941 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Transfer-Encoding: chunked
+[DEBUG][2017/11/02 15:48:0941 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Content-Type: application/json; charset=utf-8
+[DEBUG][2017/11/02 15:48:0941 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Content-Encoding: gzip
+[DEBUG][2017/11/02 15:48:0942 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Server: Microsoft-HTTPAPI/2.0
+[DEBUG][2017/11/02 15:48:0942 ][org.apache.http.impl.conn.LoggingManagedHttpClientConnection.onResponseReceived(LoggingManagedHttpClientConnection.java:127)] http-outgoing-0 &lt;&lt; Date: Thu, 02 Nov 2017 17:00:28 GMT
+[DEBUG][2017/11/02 15:48:0943 ][org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:284)] Connection can be kept alive indefinitely
+[INFO ][2017/11/02 15:48:0943 ][gsApiTest.ApiTest.resCodeIs200(ApiTest.java:118)] ============ API Test -- response code: 200 ============
+[DEBUG][2017/11/02 15:48:0944 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;15E[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0944 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;m[0x91][0xed]o[0x82]0[0x10][0xc6][0xff][0x95][0xe5]&gt;7[0x4]D[0x14][0xfa][0x8d][0xe1][0x8c].aKf[0xf6]j[0x16][0xd3][0xc1][0x9][0x8d]X[0x8][0xad]/[0x9b][0xf1]&#x7f;[0xdf]u[0xba][0x5][0x93][0xf5][0xdb]=}[0xee][0xd7][0xeb]s[0x7]X,[0xcc]g[0x83][0xc0]![0xae]r[0xa9][0x9d][0xb4][0xce][0xb1][0xd2][0xce][0xb6][0xef]L[0xd5][0xb2]v[0x12][0xb1][0xc6]V[0xcc][0x8c]0[0x1b][0xfd]s[0xc5][0xae][0xba]&gt;`[0x10]gFn[0xf1][0xe4][0x3]&gt;?[0xc0]X[0xea][0x12]?[0x89]x[0x80][0x93][0x9a][\n]&quot;
+[DEBUG][2017/11/02 15:48:0945 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[0xbd][0xd2][0xb6][0xbc][0xcf][0xb2]j[0xa3]e[0xad][0xce][0xca][0xfc][0x9d][0xc1]C-[0xf2]N[0xf9]V+[0xfc]+[0x8f][0xc][0x92]z[0xdd][0x8][0xad]'(r[0xa9][\n]&quot;
+[DEBUG][2017/11/02 15:48:0945 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[0xe0].[0x83][0x9b][0xbd]i[0xa5][0xd2]2KD%?Za[0x8]h[0xe9][0x13][0x94]Ei[0xc6][0x88][0x6][0xb8]7[0xa0][0xde][0xa9][0xfa][0xdf]8[0x92]4[0x96][0xc1][0x96]hN[0x18]D[0xfe]0 [0xef]Z[0x14][0x98][0xa0]&quot;[0xf9][0xc5][0xea][0x81][0xeb]{[0xbd]K[0xfd][0xd5][0xea][0xfd]h[0x18]y[0x83][0xdf]3&lt;[0x1b]NO[0x3][0x8f][0x6][0xee]Yy[0x96][0xb9])i[0x8e]^H[0xca][0x93][0xc4]][0xac][0x8a][\n]&quot;
+[DEBUG][2017/11/02 15:48:0946 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;GX[0xb4][0x88][0xf4]7/$vR[\n]&quot;
+[DEBUG][2017/11/02 15:48:0946 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[0xa5]l[0x88][0xdc]g0[0xc2][0xc6]6[0x84][0xc].`[0xa9][0xd8][0xdf]6X[0xcc][0xe4][0x17][0x5][0xea][0xf5]]:[0xc]:p[0xfb]M[0x9d][0xd4]j)[0x8b]M[0x8b]9p[0xd3]n[0x90][0xda][0xe2]$[0xce][0xf3][0x16]5[0xc1][0xc1]u[0xb9][0xef][0xf2][0xc0][0xe7][0x1e][0xf2][0xd0][0xe3][0xbd][0x8],wew~-tEA0[0xb8][0xa3]H[0xa8][0x86][0xe3][0x91][0x96][0x90]J[0xad])[0xed][0xd3][0xf6][0xce][0x8b]yT+U[0xef]TG;~[0x3][\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0946 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;8[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0947 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[0xe5]I[0xcc][0x2]&lt;[0x2][0x0][0x0][\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0947 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;0[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0947 ][org.apache.http.impl.conn.Wire.wire(Wire.java:72)] http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;
+[DEBUG][2017/11/02 15:48:0948 ][org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:314)] Connection [id: 0][route: {}-&gt;http://10.1.3.174:8902] can be kept alive indefinitely
+[DEBUG][2017/11/02 15:48:0948 ][org.apache.http.impl.conn.PoolingHttpClientConnectionManager.releaseConnection(PoolingHttpClientConnectionManager.java:320)] Connection released: [id: 0][route: {}-&gt;http://10.1.3.174:8902][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.14</a> at Nov 2, 2017 3:48:09 PM</p>
+</div>
+</div>
+</body>
+</html>

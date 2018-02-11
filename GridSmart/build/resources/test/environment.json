@@ -1,0 +1,16 @@
+{
+"ip": "10.1.3.174",
+"port": "8902",
+"cloud_username": "gu.suping@xbosoft.com",
+"cloud_password": "gusuping",
+
+
+"gs_client_path": "C:\\Program Files (x86)\\GRIDSMART\\6.0\\GTI.GridSmart.Client.exe",
+"winium_driver_path": "./lib/Winium.Desktop.Driver.exe",
+
+
+"browser": "*chrome",
+"cloud_login_url": "https://www.gridsmartcloud.com/#login/"
+
+
+}

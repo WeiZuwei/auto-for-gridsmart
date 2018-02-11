@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43381" started-at="2017-11-10T11:27:44Z" finished-at="2017-11-10T11:28:27Z">
+    <groups>
+      <group name="client">
+        <method signature="LoginTest.loginCloud()[pri:0, instance:com.gridsmart.clientTest.LoginTest@6acdbdf5]" name="loginCloud" class="com.gridsmart.clientTest.LoginTest"/>
+      </group> <!-- client -->
+    </groups>
+    <test name="Default test" duration-ms="43381" started-at="2017-11-10T11:27:44Z" finished-at="2017-11-10T11:28:27Z">
+      <class name="com.gridsmart.clientTest.LoginTest">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.gridsmart.clientTest.LoginTest@6acdbdf5]" name="initiate" is-config="true" duration-ms="17270" started-at="2017-11-10T19:27:44Z" finished-at="2017-11-10T19:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="loginCloud()[pri:0, instance:com.gridsmart.clientTest.LoginTest@6acdbdf5]" name="loginCloud" duration-ms="15982" started-at="2017-11-10T19:28:01Z" description="Login GS Cloud with valid username/password" finished-at="2017-11-10T19:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCloud -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.gridsmart.clientTest.LoginTest@6acdbdf5]" name="cleanup" is-config="true" duration-ms="10118" started-at="2017-11-10T19:28:17Z" finished-at="2017-11-10T19:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.gridsmart.clientTest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
